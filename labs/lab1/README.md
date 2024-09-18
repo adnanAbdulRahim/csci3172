@@ -17,3 +17,4 @@ If what is being submitted is an individual Lab or Assignment, you may simply in
 ##Links
 
 *Timberlea URL: https://web.cs.dal.ca/~abdulrahim/csci3172/lab1/
+*Git URL: https://git.cs.dal.ca/abdulrahim/csci3172
