@@ -18,3 +18,7 @@ If what is being submitted is an individual Lab or Assignment, you may simply in
 
 ## Sources Used
 Lecture L5V3
+
+## Links
+Git Link: https://git.cs.dal.ca/abdulrahim/csci3172/-/tree/main/activities/lecture5?ref_type=heads
+TimberLea Link: https://web.cs.dal.ca/~abdulrahim/csci3172/activities/lecture5/
