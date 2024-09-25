@@ -42,3 +42,6 @@ Math.floor(Math.random() * 11);
 - <!---How---> I modified it slightly as the code snippet they provided would give 0 to x-1
 in order to counter that I added a + 1 within my function so if user requested 0 - 10 it 
 won't give them 0 - 9 and.
+
+GIT LINK: https://git.cs.dal.ca/abdulrahim/csci3172
+TIMBERLEA LINK: https://web.cs.dal.ca/~abdulrahim/csci3172/activities/lecture7/
