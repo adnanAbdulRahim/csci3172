@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form id="form">
+        <!--name is the 'key' used to identify different forms. stored as firstName ="UserName"-->
+        <label>First Name: </label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br>
+        <br>
+        <label>Last Name: </label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br>
+        <br>
+        <label>Email: </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label>Gender:</label>
+        <!--name=gender is must for radio button input so they work together as one. and not independently.-->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="nonBinary" name="gender" value="non-binary">
+        <label for="nonBinary">Non-Binary</label>
+        <input type="radio" id="preferNotToSay" name="gender" value="prefer-not-to-answer">
+        <label for="preferNotToSay">Prefer Not to Answer</label>
+        <br>
+        <br>
+        <label>Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+            <option value="Spain">Spain</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- to display form data-->
+    <div id="displayData"></div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
