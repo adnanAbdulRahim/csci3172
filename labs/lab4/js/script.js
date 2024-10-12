@@ -52,3 +52,12 @@ document.getElementById('form').addEventListener('submit', function (event) {
     //submission check
     alert('Form submitted successfully!');
 });
+
+//ANSWER TO QUESTIONS:
+//preventDefault() is used to stop the form from being automatically accepted and allowing
+//user of validations
+
+//What changes are required in the code to keep previous data on the page?
+//in order to store the data after submission
+//we are retrieving the elements and updating the div element in index.html
+//with form values.

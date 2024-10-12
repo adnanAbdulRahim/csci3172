@@ -20,5 +20,3 @@ https://www.w3schools.com/js/js_regexp.asp for Regex
 
 *Timberlea URL: https://web.cs.dal.ca/~abdulrahim/csci3172/lab4/
 *Git URL: https://git.cs.dal.ca/abdulrahim/csci3172/-/tree/main/
-
-Answer to questions at bottom of script.js
