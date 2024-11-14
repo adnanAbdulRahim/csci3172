@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+
 {/*Adnan Abdul Rahim B:00898433*/}
 function App() {
   return (
@@ -11,15 +12,78 @@ function App() {
       <main>
         <div className="art-gallery">
           {/*Using alt on images following WCG guidelines*/}
-          <img src="/images/Cat1.jpg" alt="Artwork of a Cat"></img>
+          <div className="art-item">
+            <img src="/images/Cat1.jpg" alt="Artwork of a Cat"></img>
+            <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+            </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Cat2.jpg" alt="Artwork of a Cat2"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Girl1.jpg" alt="Artwork of a Girl"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Girl2.jpg" alt="Artwork of a Girl2"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Boy.jpg" alt="Artwork of a Boy"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Boy2.jpg" alt="Artwork of a Boy2"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Bear.jpg" alt="Artwork of a Bear"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Legs.jpg" alt="Artwork of a Legs"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
+          <div className="art-item">
           <img src="/images/Hands.jpg" alt="Artwork of a Hands"></img>
+          <form className="comment-form">
+              <input type="text" placeholder="Write a comment..."></input>
+              <button type="submit">Post</button>
+          </form>
+          </div>
+
         </div>
       </main>
       <footer>
