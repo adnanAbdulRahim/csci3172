@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 {/*Adnan Abdul Rahim B:00898433*/}
@@ -87,7 +86,7 @@ function App() {
         </div>
       </main>
       <footer>
-        <p>Follow me on Instagram <a href="https://instagram.com/adnan.arts" target="_blank">@adnan.arts</a></p>
+        <p>Follow me on Instagram <a href="https://instagram.com/adnan.arts" target="_blank" rel="noopener noreferrer">@adnan.arts</a></p>
       </footer>
     </div>
   );
