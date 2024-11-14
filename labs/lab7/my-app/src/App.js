@@ -1,6 +1,5 @@
 import './App.css';
 
-{/*Adnan Abdul Rahim B:00898433*/}
 function App() {
   return (
     <div className="App">
@@ -10,7 +9,7 @@ function App() {
       </header>
       <main>
         <div className="art-gallery">
-          {/*Using alt on images following WCG guidelines*/}
+
           <div className="art-item">
             <img src="/images/Cat1.jpg" alt="Artwork of a Cat"></img>
             <form className="comment-form">
